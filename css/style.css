@@ -64,7 +64,7 @@ nav ul li a {
 
 h1 {
   color: #fff;
-  font-size: 100px;
+  font-size: 80px;
   padding-bottom: 20px;
 }
 
@@ -140,4 +140,8 @@ h2 {
 
 .more-info {
   text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
 }
