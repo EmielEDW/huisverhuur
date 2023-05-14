@@ -20,7 +20,7 @@
 
 .contact-main {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/img/planning.png);
+    url(../img/planning.png);
 }
 
 .navbar {
@@ -122,22 +122,22 @@ button {
 
 .card1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("/img/huis3.jpeg");
+    url("../img/huis3.jpeg");
 }
 
 .card2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("/img/huis4.jpeg");
+    url("../img/huis4.jpeg");
 }
 
 .card3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/img/contactus.png");
+    url("../img/contactus.png");
 }
 
 .card4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/img/meeting.png");
+    url("../img/meeting.png");
 }
 
 .card:hover {
@@ -210,7 +210,7 @@ h2 {
 }
 
 .left {
-  background: url("/img/huis3.jpeg") no-repeat center;
+  background: url("../img/huis3.jpeg") no-repeat center;
   background-size: cover;
   height: 100%;
   text-align: left;
