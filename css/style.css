@@ -88,6 +88,11 @@ button {
   border-radius: 20px;
   outline: none;
   margin-top: 30px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #a5a5a5;
 }
 
 .button-afspraak {
@@ -99,6 +104,11 @@ button {
   border-radius: 20px;
   outline: none;
   margin-top: 30px;
+  transition: 1s;
+}
+
+button:hover {
+  background-color: #1b6fa3;
 }
 
 .col-right {
@@ -165,6 +175,10 @@ h2 {
 
 .more-info {
   text-decoration: underline;
+}
+
+.more-info:hover {
+  color: #d4d4d4;
 }
 
 .bold {
