@@ -105,6 +105,7 @@ button:hover {
   outline: none;
   margin-top: 30px;
   transition: 1s;
+  margin: 0px;
 }
 
 button:hover {
@@ -308,7 +309,7 @@ textarea {
 a {
   text-decoration: none;
   display: inline-block;
-  padding: 8px 16px;
+  margin: 0;
 }
 
 .previous {
@@ -317,4 +318,52 @@ a {
   margin: 10px 10px;
   font-size: 24px;
   font-weight: bold;
+}
+
+@media screen and (max-width: 1100px) {
+  .col-right {
+  }
+
+  .card {
+    width: 35vw;
+    margin: 10px;
+  }
+  .card1 {
+    float: left;
+    width: 35vw;
+  }
+  .card2 {
+    float: right;
+    width: 35vw;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .card h2 {
+    font-size: 18px;
+  }
+  .card p {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .begin-huren {
+    position: relative;
+    margin-left: 29vw;
+    font-size: 12px;
+    padding: 12px 18px;
+  }
+  .card1 .uitleg,
+  .card2 .uitleg,
+  .more-info,
+  .card3 .uitleg,
+  .card3 .eigenschappen,
+  .card4 .uitleg,
+  .card4 .eigenschappen {
+    display: none;
+  }
 }
