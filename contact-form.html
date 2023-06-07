@@ -21,6 +21,13 @@ https://cdn.jsdelivr.net/npm/bootswatch@5.2.3/dist/cerulean/bootstrap.min.css
       async
     ></script>
     <!-- Calendly link widget end -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+      <script type="text/javascript">
+          (function () {
+              // https://dashboard.emailjs.com/admin/account
+              emailjs.init('IxCPail4kOcqOs90X');
+          })();
+      </script>
     <link rel="stylesheet" href="css/style.css" />
     <title>Contact - Vermeersch</title>
   </head>
@@ -69,13 +76,11 @@ https://cdn.jsdelivr.net/npm/bootswatch@5.2.3/dist/cerulean/bootstrap.min.css
             </div>
 			<div class="right">
 				<h2>Contact Us</h2>
-				<form method="post" action="send-email.php">
-                    <input type="text" name="name" class="field" placeholder="Naam">
-                    <input type="text" name="email" class="field" placeholder="Email">
-                    <input type="text" name="phone" class="field" placeholder="GSM Nummer">
-                    <textarea name="message" placeholder="Bericht" class="field"></textarea>
-                    <button type="submit" class="btn">Send</button>
-                  </form>
+                    <form action=""><input type="text" name="name" class="field" placeholder="Naam" id="name">
+                      <input type="text" name="email" class="field" placeholder="Email" id="email">
+                      <input type="text" name="phone" class="field" placeholder="GSM Nummer" id="gsm">
+                      <textarea name="message" placeholder="Bericht" class="field" id="message"></textarea>
+                      <button type="submit" class="btn" onclick="SendMail()">Send</button></form>
 			</div>
 		</div>
 	</div>
@@ -84,5 +89,25 @@ https://cdn.jsdelivr.net/npm/bootswatch@5.2.3/dist/cerulean/bootstrap.min.css
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <script>
+      function SendMail() {
+              console.log("jdaa");
+              var params = {
+                  name: document.getElementById("name").value,
+                  message: document.getElementById("message").value,
+                  email: document.getElementById("email").value,
+                  gsm: document.getElementById("gsm").value,
+              }
+              emailjs.send("service_sve9tvw", "template_3kw8z9f", params)
+                  .then(function () {
+                      // Reset the input field values
+                      document.getElementById("name").value = "";
+                      document.getElementById("message").value = "";
+                      document.getElementById("email").value = "";
+                      document.getElementById("gsm").value = "";
+                  });
+          }
+
+  </script>
   </body>
 </html>
