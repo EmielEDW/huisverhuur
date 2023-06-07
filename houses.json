@@ -1,0 +1,25 @@
+[
+    {
+      "image": "img/huis3.jpeg",
+      "description": "House 1 description",
+      "pricew": "€350",
+      "pricem": "€1000",
+      "location": "Orihuela Costa – Costa Blanca",
+      "personen": "4",
+      "kamers": " living met open keuken voorzien van alle comfort zoals microgolf, heteluchtoven, vaatwasser, wasmachine en droogkast, 1 slaapkamers met tweepersoonsbed, 1 slaapkamer met 2 eenpersoonsbedden, 2 badkamers met douches, lavabo en toilet,  afgesloten inpandig terras en groot zonnige dakterras",
+      "voorzieningen": "gemeenschappelijk zwembad op 20 meter van het appartement alleen toegankelijk voor de gasten of eigenaars (met badge).",
+      "available": true
+    },
+    {
+        "image": "img/huis3.jpeg",
+        "description": "House 1 description",
+        "pricew": "€350",
+        "pricem": "€1000",
+        "location": "Orihuela Costa – Costa Blanca",
+        "personen": "4",
+        "kamers": " living met open keuken voorzien van alle comfort zoals microgolf, heteluchtoven, vaatwasser, wasmachine en droogkast, 1 slaapkamers met tweepersoonsbed, 1 slaapkamer met 2 eenpersoonsbedden, 2 badkamers met douches, lavabo en toilet,  afgesloten inpandig terras en groot zonnige dakterras",
+        "voorzieningen": "gemeenschappelijk zwembad op 20 meter van het appartement alleen toegankelijk voor de gasten of eigenaars (met badge).",
+        "available": true
+    }
+  ]
+  

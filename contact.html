@@ -20,13 +20,6 @@ https://cdn.jsdelivr.net/npm/bootswatch@5.2.3/dist/cerulean/bootstrap.min.css
       type="text/javascript"
       async
     ></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js%22%3E</script>
-      <script type="text/javascript">
-          (function () {
-              // https://dashboard.emailjs.com/admin/account
-              emailjs.init('IxCPail4kOcqOs90X');
-          })();
-      </script>
     <!-- Calendly link widget end -->
     <link rel="stylesheet" href="css/style.css" />
     <title>Contact - Vermeersch</title>
@@ -138,25 +131,5 @@ https://cdn.jsdelivr.net/npm/bootswatch@5.2.3/dist/cerulean/bootstrap.min.css
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
-    <script>
-      function SendMail() {
-              console.log("jdaa");
-              var params = {
-                  name: document.getElementById("name_id").value,
-                  message: document.getElementById("message_id").value,
-                  email: document.getElementById("email_id").value,
-                  gsm: document.getElementById("gsm").value,
-              }
-              emailjs.send("service_sve9tvw", "template_3kw8z9f", params)
-                  .then(function () {
-                      // Reset the input field values
-                      document.getElementById("name_id").value = "";
-                      document.getElementById("message_id").value = "";
-                      document.getElementById("email_id").value = "";
-                      document.getElementById("gsm").value = "";
-                  });
-          }
-
-  </script>
   </body>
 </html>
