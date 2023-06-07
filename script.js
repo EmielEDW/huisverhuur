@@ -40,33 +40,41 @@ $(document).ready(function() {
     houseElement.append(space);
 
     // Set the house location
-    var priceElement = $('<p class="house-price"></p>');
-    priceElement.text('Locatie: ' + house.location);
-    houseElement.append(priceElement);
+    var locationElement = $('<p class="house-price"></p>');
+    locationElement.text('Locatie: ' + house.location);
+    houseElement.append(locationElement);
 
     var space = $('<br>');
     houseElement.append(space);
 
     // Set the house personen
-    var priceElement = $('<p class="house-price"></p>');
-    priceElement.text('Aantal personen: ' + house.personen);
-    houseElement.append(priceElement);
+    var personenElement = $('<p class="house-price"></p>');
+    personenElement.text('Aantal personen: ' + house.personen);
+    houseElement.append(personenElement);
 
     var space = $('<br>');
     houseElement.append(space);
 
     // Set the house kamers
-    var priceElement = $('<p class="house-price"></p>');
-    priceElement.text('Kamers: ' + house.kamers);
-    houseElement.append(priceElement);
+    var kamersElement = $('<p class="house-price"></p>');
+    kamersElement.text('Kamers: ' + house.kamers);
+    houseElement.append(kamersElement);
 
     var space = $('<br>');
     houseElement.append(space);
 
     // Set the house voorzieningen
-    var priceElement = $('<p class="house-price"></p>');
-    priceElement.text('Voorzieningen: ' + house.voorzieningen);
-    houseElement.append(priceElement);
+    var voorzieningenElement = $('<p class="house-price"></p>');
+    voorzieningenElement.text('Voorzieningen: ' + house.voorzieningen);
+    houseElement.append(voorzieningenElement);
+
+    var space = $('<br>');
+    houseElement.append(space);
+
+    // Set the house parking
+    var parkingElement = $('<p class="house-price"></p>');
+    parkingElement.text('Voorzieningen: ' + house.p);
+    houseElement.append(parkingElement);
 
     var space = $('<br>');
     houseElement.append(space);
