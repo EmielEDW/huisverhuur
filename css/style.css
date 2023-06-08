@@ -426,13 +426,3 @@ a {
     max-height: 150px;
   }
 }
-
-.splide {
-  width: 100%;
-  height: 100%;
-}
-
-.splide__slide img {
-  width: 100%;
-  height: 100%;
-}
