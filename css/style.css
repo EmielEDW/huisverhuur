@@ -130,13 +130,13 @@ button:hover {
 }
 
 .card1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../img/huis3.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/leefruimte.jpg");
 }
 
 .card2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../img/huis4.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/dubbelbed.jpg");
 }
 
 .card3 {
@@ -422,9 +422,18 @@ a {
 }
 
 .carousel-inner {
-  max-height: 725px;
+  height: 70vh;
 }
 
 .carousel-inner img {
   height: 100vh;
+}
+
+iframe {
+  height: 70vh;
+}
+
+.review,
+.Main__Container-sc-1n4ud0o-0LNOon {
+  height: 70vh;
 }
