@@ -122,41 +122,8 @@
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script>
-      $(document).ready(function () {
-        // Fetch the JSON file
-        $.getJSON("images.json", function (data) {
-          var images = data.images;
-
-          // Function to create the carousel items
-          function createCarouselItems() {
-            var carouselInner = document.querySelector(".carousel-inner");
-
-            for (var i = 0; i < images.length; i++) {
-              var image = images[i];
-
-              var carouselItem = document.createElement("div");
-              carouselItem.classList.add("carousel-item");
-
-              if (i === 0) {
-                carouselItem.classList.add("active");
-              }
-
-              var imgElement = document.createElement("img");
-              imgElement.src = "img/" + image;
-              imgElement.alt = "Carousel Image";
-
-              carouselItem.appendChild(imgElement);
-              carouselInner.appendChild(carouselItem);
-            }
-          }
-
-          // Call the function to create the carousel items
-          createCarouselItems();
-        });
-      });
-    </script>
-    <script src="script.js"></script>
+    <script src="js/images.js"></script>
+    <script src="js/script.js"></script>
     <script>
       var booqableOptions = {
         company: "610a68a1-7396-471e-8c21-9f5819d67e2d",

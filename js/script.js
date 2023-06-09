@@ -1,6 +1,6 @@
 $(document).ready(function() {
     // Fetch the rental house data from a JSON file
-    $.getJSON('houses.json', function(data) {
+    $.getJSON('../json/houses.json', function(data) {
       // Render the first house
       renderHouse(data[0], 'house1');
   
